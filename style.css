@@ -29,3 +29,82 @@ body{
 footer{
     background-color: #242425;
 }
+@media (max-width: 768px) {
+    .div1{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 10px;
+    }
+    .div1 ul{
+        margin-left: 0;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titleall img{
+        width: 90%;
+    }
+    .titleall h1{
+        font-size: 20px;
+    }
+    .titleall h4{
+        font-size: 13px;
+    }
+    .titleall h4 br{
+        display: none;
+    }
+    div[class*="justify-center mt-10 text-center flex gap-10"]{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .matn{
+        width: 90%;
+    }
+    .matn img, div[class*="justify-center"] img{
+        width: 90%;
+    }
+    .flex.justify-center.gap-50{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    footer .flex.justify-center.gap-3{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    footer ul{
+        margin-right: 0;
+    }
+    footer .flex.justify-center.mt-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    footer img.w-70{
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav img.w-30{
+        width: 80px;
+    }
+    .div1 ul{
+        font-size: 10px;
+        gap: 12px;
+    }
+    .btn{
+        font-size: 11px;
+        width: 100px;
+    }
+    .titleall h1{
+        font-size: 16px;
+    }
+    .titleall h4{
+        font-size: 11px;
+    }
+    button{
+        width: 80% !important;
+    }
+}
