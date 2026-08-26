@@ -1,0 +1,31 @@
+
+
+nav{
+    background-color: green;
+    background-color: op;
+}
+body{
+    font-family: "Press Start 2P";
+    background-color: #262728;
+}
+.div1{
+    background: none;
+    ul{
+        background: none;
+        li{
+            background: none;
+        }
+    }
+    img{
+        background: none;
+    }
+}
+.div2{
+    background: none;
+}
+.btn{
+    background: none;
+}
+footer{
+    background-color: #242425;
+}
