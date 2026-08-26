@@ -1,110 +1,115 @@
-
-
-nav{
-    background-color: green;
-    background-color: op;
+nav {
+    background-color: transparent;
 }
-body{
+
+body {
     font-family: "Press Start 2P";
     background-color: #262728;
 }
-.div1{
-    background: none;
-    ul{
-        background: none;
-        li{
-            background: none;
-        }
-    }
-    img{
-        background: none;
-    }
-}
-.div2{
+
+.div1 {
     background: none;
 }
-.btn{
+.div1 ul {
     background: none;
 }
-footer{
+.div1 ul li {
+    background: none;
+}
+.div1 img {
+    background: none;
+}
+
+.div2 {
+    background: none;
+}
+
+.btn {
+    background: none;
+}
+
+footer {
     background-color: #242425;
 }
+
 @media (max-width: 768px) {
-    .div1{
+    .div1 {
         flex-wrap: wrap;
         gap: 15px;
         margin: 10px;
+        justify-content: center;
     }
-    .div1 ul{
+    .div1 ul {
         margin-left: 0;
         gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .titleall img{
+    .titleall img {
         width: 90%;
     }
-    .titleall h1{
+    .titleall h1 {
         font-size: 20px;
     }
-    .titleall h4{
+    .titleall h4 {
         font-size: 13px;
     }
-    .titleall h4 br{
+    .titleall h4 br {
         display: none;
     }
-    div[class*="justify-center mt-10 text-center flex gap-10"]{
+    div[class*="justify-center mt-10 text-center flex gap-10"] {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .matn{
+    .matn {
         width: 90%;
     }
-    .matn img, div[class*="justify-center"] img{
+    .matn img,
+    div[class*="justify-center"] img {
         width: 90%;
     }
-    .flex.justify-center.gap-50{
+    .flex.justify-center.gap-50 {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    footer .flex.justify-center.gap-3{
+    footer .flex.justify-center.gap-3 {
         flex-wrap: wrap;
         gap: 15px;
     }
-    footer ul{
+    footer ul {
         margin-right: 0;
     }
-    footer .flex.justify-center.mt-2{
+    footer .flex.justify-center.mt-2 {
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
-    footer img.w-70{
+    footer img.w-70 {
         width: 40%;
     }
 }
 
 @media (max-width: 480px) {
-    nav img.w-30{
+    nav img.w-30 {
         width: 80px;
     }
-    .div1 ul{
+    .div1 ul {
         font-size: 10px;
         gap: 12px;
     }
-    .btn{
+    .btn {
         font-size: 11px;
         width: 100px;
     }
-    .titleall h1{
+    .titleall h1 {
         font-size: 16px;
     }
-    .titleall h4{
+    .titleall h4 {
         font-size: 11px;
     }
-    button{
+    button {
         width: 80% !important;
     }
 }
